@@ -2,7 +2,6 @@
 
 void bubbleSort(int vetor[],int n){
     int aux;
-    printf("\n");
     for (int i = 0; i < n; i++){
         // printf("%d ",i);
         for (int j = 0; j < (n-1); j++){
@@ -15,12 +14,12 @@ void bubbleSort(int vetor[],int n){
         }
         printf("%d ",vetor[i]);
     }
-    
+    printf("\n");
+
 }
 
 void selectionSort(int vet[],int n){
     int aux;
-    printf("\n");
     for (int i = 0; i < n; i++){
         int smaller = i;
         for (int j = i+1; j < n-1; j++){
@@ -32,6 +31,8 @@ void selectionSort(int vet[],int n){
         vet[i] = aux;
         printf("%d ",vet[i]);
     }
+    printf("\n");
+
 }
 
 int main(){
@@ -41,8 +42,10 @@ int main(){
     for (int i = 0; i < 6; i++){
         printf("%d ",vetor[i]);
     }
-    printf("bubble sort\n");
+    // printf("\n");
+    // printf("bubble sort\n");
     bubbleSort(vetor,6);
+    printf("\n");
     printf("Selection sort\n");
     selectionSort(vetor,6);
     return 0;
