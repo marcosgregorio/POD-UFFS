@@ -38,28 +38,8 @@ void quick_sort(int vet[], int inicio, int fim){
 }
 
 int main(){
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
-    printf("oiii");
     int arr[6] = {4, 5, 6, 7, 1, 2};
+    printf("oi");
     for (int i = 0; i < 6; i++){
         printf("%d ", arr[i]);
     }
